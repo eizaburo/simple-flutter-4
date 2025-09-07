@@ -39,7 +39,7 @@ class _ContactState extends State<Contact> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(height: 40),
-                Text("お問合せフォーム", style: TextStyle(color: Colors.white)),
+                Text("お問合せフォーム", style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
                 Text("お気軽にお問合せ下さい。", style: TextStyle(color: Colors.white)),
               ],
             ),
