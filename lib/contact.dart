@@ -190,7 +190,7 @@ class _ContactState extends State<Contact> {
     } catch (error) {
       debugPrint(error.toString());
     } finally {
-      if (mounted) {
+      // if (mounted) {
         setState(() {
           isSubmitting = false;
         });
@@ -200,7 +200,7 @@ class _ContactState extends State<Contact> {
         _messageController.text = "";
         //formのリセット（入れ替え）
         _formKey = GlobalKey<FormState>();
-      }
+      // }
     }
   }
 }
